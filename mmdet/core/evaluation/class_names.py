@@ -66,7 +66,7 @@ def imagenet_vid_classes():
 
 def coco_classes():
     return [
-        '1'
+        'as', 'ad', 'cn', 'dp', 'ep', 'lt', 'cl', 'cy', 'ct', 'pr', 'rt1', 'rt2', 'rt3', 'rt4', 'tp', 'tr', 'vt'
     ]
 
 
