@@ -1,7 +1,8 @@
 ## HackMD
 
-微生物辨識 使用&其他更新 https://hackmd.io/jUurXDMiS7KCtBwgINp_KA?view
-微生物辨識 (安裝為主) https://hackmd.io/wFMY6OFiR16_wemWxsxniw?view
+微生物辨識 使用&其他更新 https://hackmd.io/jUurXDMiS7KCtBwgINp_KA?view  
+
+微生物辨識 (安裝為主) https://hackmd.io/wFMY6OFiR16_wemWxsxniw?view  
 
 
 ## Installation
@@ -10,11 +11,16 @@
 
 
 ## Getting Started
-[getting_started.md](docs/getting_started.md)
-[finetuning models](docs/tutorials/finetune.md)
-[adding new dataset](docs/tutorials/new_dataset.md)
-[designing data pipeline](docs/tutorials/data_pipeline.md)
-[adding new modules](docs/tutorials/new_modules.md)
+[getting_started.md](docs/getting_started.md)  
+
+[finetuning models](docs/tutorials/finetune.md)  
+
+[adding new dataset](docs/tutorials/new_dataset.md)  
+
+[designing data pipeline](docs/tutorials/data_pipeline.md)  
+
+[adding new modules](docs/tutorials/new_modules.md)  
+
 
 ## Benchmark and model zoo
 
