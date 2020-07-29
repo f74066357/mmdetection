@@ -17,7 +17,7 @@ from .custom import CustomDataset
 @DATASETS.register_module()
 class CocoDataset(CustomDataset):
 
-    CLASSES = ('as', 'ad', 'cn', 'dp', 'ep', 'lt', 'cl', 'cy', 'ct', 'pr', 'rt1', 'rt2', 'rt3', 'rt4', 'tp', 'tr', 'vt')
+    CLASSES = ('as', 'ad', 'cn', 'dp', 'ep', 'lt', 'cl', 'cy', 'ct', 'pr', 'rt1', 'rt2', 'rt3', 'rt4', 'tp', 'tr', 'vt' , 'fb')
     def load_annotations(self, ann_file):
         """Load annotation from COCO style annotation file.
         Args:
