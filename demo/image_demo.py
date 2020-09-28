@@ -24,13 +24,24 @@ def main():
     # test a single image
     result = inference_detector(model, args.img)
     
+    # show the results
+    k=show_result_pyplot(model, args.img, result, score_thr=args.score_thr)#k=shape of img
+    
+    ###
     mythr=0.5
     for i in range (18):
       if(len(result[i])>0):
         for j in range(len(result[i])):
           if(result[i][j][4]>mythr):
-            print(result[i][j])
-        
+    #        print(result[i][j])
+            x1=result[i][j][0]
+            y1=result[i][j][1]
+            x2=result[i][j][2]
+            y2=result[i][j][3]
+            
+            w=abs(x2-x1)
+            h=abs(y2-y1)
+            #print(w,h,w*h)
     #print(len(result[0]))
     #print(len(result[17]))
     #print((result[17]))
@@ -44,8 +55,11 @@ def main():
 
     #k=[[923.4591    332.5638    100.5444    403.03183     0.9977043]]
     
-    # show the results
-    show_result_pyplot(model, args.img, result, score_thr=args.score_thr)
+    #print(k[0],k[1]) #shape
+    
+    #ratio
+    print((w*h)/(k[0]*k[1]))
+    ###
 
 
 if __name__ == '__main__':

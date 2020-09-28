@@ -160,3 +160,6 @@ def show_result_pyplot(model, img, result, score_thr=0.3, fig_size=(15, 10)):
     plt.figure(figsize=fig_size)
     plt.imshow(mmcv.bgr2rgb(img))
     plt.show()
+    ###
+    return img.shape
+    ###
